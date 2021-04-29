@@ -1,0 +1,13 @@
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\obj\Debug\netcoreapp3.1\Homework_30.04.csprojAssemblyReference.cache
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\obj\Debug\netcoreapp3.1\Homework_30.04.AssemblyInfoInputs.cache
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\obj\Debug\netcoreapp3.1\Homework_30.04.AssemblyInfo.cs
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\obj\Debug\netcoreapp3.1\Homework_30.04.csproj.CoreCompileInputs.cache
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\bin\Debug\netcoreapp3.1\Homework_30.04.exe
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\bin\Debug\netcoreapp3.1\Homework_30.04.deps.json
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\bin\Debug\netcoreapp3.1\Homework_30.04.runtimeconfig.json
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\bin\Debug\netcoreapp3.1\Homework_30.04.runtimeconfig.dev.json
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\bin\Debug\netcoreapp3.1\Homework_30.04.dll
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\bin\Debug\netcoreapp3.1\Homework_30.04.pdb
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\obj\Debug\netcoreapp3.1\Homework_30.04.dll
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\obj\Debug\netcoreapp3.1\Homework_30.04.pdb
+C:\Users\Ілля\Desktop\Bezuhliy_Ilia_Homework\Homework_30.04\Homework_30.04\obj\Debug\netcoreapp3.1\Homework_30.04.genruntimeconfig.cache
