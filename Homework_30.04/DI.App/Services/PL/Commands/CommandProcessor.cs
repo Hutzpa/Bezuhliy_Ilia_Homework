@@ -10,7 +10,7 @@ namespace DI.App.Services.PL
         private readonly Dictionary<int, ICommand> commands = new Dictionary<int, ICommand>();
 
         public CommandProcessor(ICommand addUsers, ICommand listUsers)
-        {
+        {                  
             this.commands.Add(addUsers.Number, addUsers);
             this.commands.Add(listUsers.Number, listUsers);
         }
