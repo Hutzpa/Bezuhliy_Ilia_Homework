@@ -10,7 +10,12 @@ namespace Homework_14_05
 {
     public class Strings
     {
+        public Task7 Task7 { get; set; }
 
+        public Strings()
+        {
+            Task7 = new Task7();
+        }
         /// <summary>
         /// Task 1
         /// </summary>
@@ -96,6 +101,15 @@ namespace Homework_14_05
                 }
                 Console.WriteLine();
             }
+        }
+
+        /// <summary>
+        /// Task 9
+        /// </summary>
+        public void FromBase64()
+        {
+            string baseString = "0JXRgdC70Lgg0YLRiyDRh9C40YLQsNC10YjRjCDRjdGC0L7RgiDRgtC10LrRgdGCLCDQt9C90LDRh9C40YIg0LfQsNC00LDQvdC40LUg0LLRi9C/0L7Qu9C90LXQvdC+INCy0LXRgNC90L4gOik=";
+            Console.WriteLine(System.Text.Encoding.UTF8.GetString(Convert.FromBase64String(baseString)));
         }
     }
 }

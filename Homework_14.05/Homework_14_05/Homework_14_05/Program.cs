@@ -13,7 +13,9 @@ namespace Homework_14_05
             //task1.ReadDateAndTimeISO8601();
             //task1.ParseTheDate();
             //task1.CountTheSum();
-            task1.MakeNameUppercase();
+            //task1.MakeNameUppercase();
+            //task1.FromBase64();
+            task1.Task7.ReplacePhoneNumbers();
 
 
             //double[] arr = { 9, 1.5, 34.4, 234, 1, 56.5 };
