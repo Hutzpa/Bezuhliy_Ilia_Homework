@@ -1,13 +1,17 @@
-﻿namespace Homework_30._04.Content
+﻿using System;
+
+namespace Homework_30._04.Content
 {
-    public class MovieContentFile : ContentFile
+    public class MovieContentFile : ContentFile, IResolution
     {
-        public string Resolution { get; set; }
-        public string Length { get; set; }
+        public int Height { get; set; }
+        public int Width { get; set; }
+
+        public TimeSpan Duration { get; set; }
 
         public override string ToString()
         {
-            return $" \t {FileName}.{FileExtension} \n \t\t Extension: {FileExtension} \n \t\t Size: {Weight}{WeightMark} \n \t\t Resolution: {Resolution} \n \t \t Length: {Length}";
+            return $" \t {FileName}.{FileExtension} \n \t\t Extension: {FileExtension} \n \t\t Size: {Weight}{WeightMark} \n \t\t Resolution: {Width}x{Height} \n \t \t Length: {Duration.Hours}h{Duration.Minutes}m";
         }
     }
 }

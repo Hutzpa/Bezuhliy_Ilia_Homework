@@ -15,7 +15,7 @@ namespace Homework_30._04.Parsers
                 var match = Regex.Match(str[3], @"(\d+)(\w+)");
                 data.Add(new TextContentFile
                 {
-                    Type = FileType.Text,
+                 
                     FileName = str[1],
                     FileExtension = str[2],
                     Weight = int.Parse(match.Groups[1].Value),

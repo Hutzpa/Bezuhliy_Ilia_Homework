@@ -8,6 +8,7 @@ namespace CsvSaver
     {
         static void Main(string[] args)
         {
+           
             char SEPARATOR = ',';
             string FileName = "Example.csv";
             Console.WriteLine("Write fields you want to save to csv");

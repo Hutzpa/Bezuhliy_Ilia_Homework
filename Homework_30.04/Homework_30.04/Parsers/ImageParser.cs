@@ -16,15 +16,16 @@ namespace Homework_30._04.Parsers
             List<ImageContentFile> data = new List<ImageContentFile>();
             foreach (var str in text)
             {
-                var match = Regex.Match(str[3], @"(\d+)(\w+)");
+                var weight = Regex.Match(str[3], @"(\d+)(\w+)");
+                var resolution = Regex.Match(str[5], @"(\d+)(\w{1})(\d+)");
                 data.Add(new ImageContentFile
                 {
-                    Type = FileType.Image,
                     FileName = str[1],
                     FileExtension = str[2],
-                    Weight = int.Parse(match.Groups[1].Value),
-                    WeightMark = match.Groups[2].Value.ToString(),
-                    Resolution = str[5]
+                    Weight = int.Parse(weight.Groups[1].Value),
+                    WeightMark = weight.Groups[2].Value.ToString(),
+                    Width=int.Parse(resolution.Groups[1].Value),
+                    Height= int.Parse(resolution.Groups[3].Value)
                 });
             }
             return data;

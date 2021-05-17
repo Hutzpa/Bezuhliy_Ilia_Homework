@@ -15,16 +15,20 @@ namespace Homework_30._04.Parsers
             List<MovieContentFile> data = new List<MovieContentFile>();
             foreach (var str in text)
             {
-                var match = Regex.Match(str[4], @"(\d+)(\w+)");
+                var weight = Regex.Match(str[4], @"(\d+)(\w+)");
+                var resolution = Regex.Match(str[6], @"(\d+)(\w{1})(\d+)");
+                var duration = Regex.Match(str[7], @"(\d+)(\w)(\d+)(\w+)");
                 data.Add(new MovieContentFile
                 {
-                    Type = FileType.Movie,
-                    FileName = str[1]+"."+str[2],
+
+                    FileName = str[1] + "." + str[2],
                     FileExtension = str[3],
-                    Weight = int.Parse(match.Groups[1].Value),
-                    WeightMark = match.Groups[2].Value.ToString(),
-                    Resolution = str[6],
-                    Length = str[7]
+                    Weight = int.Parse(weight.Groups[1].Value),
+                    WeightMark = weight.Groups[2].Value.ToString(),
+                    Width = int.Parse(resolution.Groups[1].Value),
+                    Height = int.Parse(resolution.Groups[3].Value),
+                    //Duration = TimeSpan.Parse($"{duration.Groups[1]}:{duration.Groups[3]}"),
+                    Duration = new TimeSpan(int.Parse(duration.Groups[1].Value), int.Parse(duration.Groups[3].Value),0)
                 });
             }
             return data;
