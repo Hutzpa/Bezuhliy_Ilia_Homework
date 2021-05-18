@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Homework
 {
-
     // definition of Customer:
     public class Customer
     {
